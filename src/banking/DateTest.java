@@ -6,8 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Tests the functionality of the Date class, focusing on the validity of date
  * values.
- *
- * @author Jeffery Sypytkowski
+ * 
  */
 
 public class DateTest {

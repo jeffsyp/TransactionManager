@@ -6,7 +6,6 @@ import java.text.DecimalFormat;
  * This class represents a database of various banking accounts.
  * It includes operations to manipulate and retrieve account data.
  * 
- * @author Altay Ozkan
  */
 public class AccountDatabase {
     private Account[] accounts; // list of various types of accounts

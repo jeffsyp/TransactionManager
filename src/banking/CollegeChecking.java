@@ -5,7 +5,6 @@ package banking;
  * This account is associated with a specific campus and has specific interest
  * and fee rules.
  *
- * @author Altay Ozkan
  */
 public class CollegeChecking extends Checking {
 

@@ -8,8 +8,6 @@ import java.util.StringTokenizer;
  * Supports transactions such as opening accounts, closing accounts,
  * depositing money, withdrawing money, and printing account details.
  *
- * @author Altay Ozkan
- * @author Jeffery Sypytkowski
  */
 public class TransactionManager {
     private Scanner scanner;

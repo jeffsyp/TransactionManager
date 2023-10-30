@@ -6,7 +6,6 @@ package banking;
  * of accounts (e.g., Checking, Savings) will derive from this class.
  * Each account has a holder's profile and a balance.
  * 
- * @author Altay Ozkan
  */
 public abstract class Account implements Comparable<Account> {
 

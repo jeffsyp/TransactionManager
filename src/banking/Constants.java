@@ -5,8 +5,6 @@ package banking;
  * This class contains constants used throughout the project to avoid magic
  * numbers and improve readability.
  * 
- * @author Altay Ozkan
- * @author Jeffery Sypytkowski
  */
 public class Constants {
     public static final int QUADRENNIAL = 4;

@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
  * Tests the functionality of the AccountDatabase class.
  * Specifically, it focuses on the operations to open and close accounts.
  *
- * @author Jeffery Sypytkowski
  */
 
 public class AccountDatabaseTest {

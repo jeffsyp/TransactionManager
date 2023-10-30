@@ -5,7 +5,6 @@ package banking;
  * This class implements the Comparable interface to allow for sorting profiles
  * based on certain criteria.
  *
- * @author Altay Ozkan
  */
 public class Profile implements Comparable<Profile> {
 

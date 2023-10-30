@@ -7,7 +7,6 @@ package banking;
  * The account also has a monthly fee that can be waived if the balance is above
  * a certain threshold.
  *
- * @author Jeffery Sypytkowski
  */
 public class Savings extends Account {
 

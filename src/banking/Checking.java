@@ -5,7 +5,6 @@ package banking;
  * This type of account has a monthly interest rate and a monthly fee that can
  * be waived if the balance is above a threshold.
  *
- * @author Jeffery Sypytkowski
  */
 public class Checking extends Account {
 

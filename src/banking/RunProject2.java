@@ -4,7 +4,6 @@ package banking;
  * The entry point for running the Transaction Manager application.
  * It creates an instance of TransactionManager and runs it.
  *
- * @author Altay Ozkan
  */
 public class RunProject2 {
 

@@ -5,8 +5,6 @@ package banking;
  * This type of account has specific withdrawal limits, interest rates, and fees
  * based on balance and number of withdrawals.
  *
- * @author Jeffery Sypytkowski
- * @author Altay Ozkan
  */
 public class MoneyMarket extends Savings {
 

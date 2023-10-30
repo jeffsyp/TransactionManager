@@ -1,10 +1,6 @@
 package banking;
 
 /**
- * @author Altay Ozkan
- */
-
-/**
  * Class that contains different types of Campuses for CollegeChecking accounts.
  */
 public enum Campus {
