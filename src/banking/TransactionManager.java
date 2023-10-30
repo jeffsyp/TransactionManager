@@ -135,6 +135,10 @@ public class TransactionManager {
      * @param code    Code for the campus of account being added.
      */
     private boolean createCC(Account buffer, Profile profile, double balance, int code) {
+        if (profile.getDob().getAge() < 16) {
+            System.out.println("DOB invalid: " + profile.getDob() + " under 16.");
+            return false;
+        }
         if (profile.getDob().getAge() >= 24) {
             System.out.println("DOB invalid: " + profile.getDob() + " over 24.");
             return false;
@@ -163,6 +167,10 @@ public class TransactionManager {
      * @param code    Code for the isLoyal status of account being added.
      */
     private boolean createS(Account buffer, Profile profile, double balance, int code) {
+        if (profile.getDob().getAge() < 16) {
+            System.out.println("DOB invalid: " + profile.getDob() + " under 16.");
+            return false;
+        }
         if (!accountDatabase.contains(buffer)) {
             accountDatabase.open(new Savings(profile, balance, code));
             return true;
@@ -181,6 +189,10 @@ public class TransactionManager {
      * @param balance Balance of new account being added.
      */
     private boolean createC(Account buffer, Profile profile, double balance) {
+        if (profile.getDob().getAge() < 16) {
+            System.out.println("DOB invalid: " + profile.getDob() + " under 16.");
+            return false;
+        }
         if (!accountDatabase.contains(buffer)) {
             accountDatabase.open(new Checking(profile, balance));
             return true;
